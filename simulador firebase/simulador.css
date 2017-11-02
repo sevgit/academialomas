@@ -1,8 +1,10 @@
 body {
   font-family: "Open Sans";
+  overflow-x: hidden;
 }
 .logo img{
   display:block;
+  max-width:90%;
   margin: 25px auto 50px auto;
 }
 
@@ -217,12 +219,12 @@ text-align:center;
 #mainCard .userList {
   list-style: none;
   padding:0;
-  margin-top:10px;
+  margin-top:25px;
 
 }
 
 #mainCard .userList li {
-  min-width:200px;
+  min-width:170px;
   padding: 2px 5px;
   border-left: 1px solid #ddd;
 }

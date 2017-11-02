@@ -8,10 +8,7 @@ $(document).ready(function() {
     const btnlogin = $("#btnlogin");
     const btnlogout = $("#btnlogout");
     const ul = $(".userList");
-    const Panel = {
-        preguntas: [],
-        usuarios: [],
-    }
+
     btnlogin.click(function(){
         const email = emailInput.val();
         const pass = passwordInput.val();
@@ -48,7 +45,7 @@ $(document).ready(function() {
 
     function gotUsers(data){
     
-    Panel.usuarios.push(data);
+    /*Panel.usuarios.push(data);*/
     
     ul.html("");
 
