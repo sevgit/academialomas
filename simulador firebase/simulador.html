@@ -1,0 +1,81 @@
+<html lang="en">
+    
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Document</title>
+      <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+      <link rel="stylesheet" href="simulador.css">
+      <!--FIREBASE-->
+      <script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
+      <script>// Initialize Firebase
+        const config = {
+          apiKey: "AIzaSyDBZolyXfLHcyc24j_rUsPJigvXMmcnnLM",
+          authDomain: "academia-lomas.firebaseapp.com",
+          databaseURL: "https://academia-lomas.firebaseio.com",
+          projectId: "academia-lomas",
+          storageBucket: "",
+          messagingSenderId: "537654016832"
+        };
+        firebase.initializeApp(config);</script>
+    </head>
+    
+    <body>
+      <div class="main-container container">
+        <div class="logo">
+          <img src="http://www.academialomas.com.uy/img/logo.png" alt="">
+        </div>
+    
+        <div class="main-test">
+          <div class="test-intro">
+            <h2 class="highlight">Test teórico</h2>
+            <p>Creamos este simulacro para que puedan evaluar sus conocimientos y llegar al examen teórico con mayor tranquilidad.</p>
+            <p>Pueden consultar el manual dando click <a class="highlight" href="ManualAutosYMotos.pdf" target="_blank" class="page">aquí</a>.</p>
+    
+            <p>Si sus resultados no son óptimos: ¡No se desanimen! Pueden agendar una clase teórica con cualquiera de nuestros instructores o llamando al <span class="highlight">2695 71 34</span></p>
+            <div class="puntos">
+              <ul>
+                <li><span class="highlight">30</span> preguntas</li>
+                <li><span class="highlight">30</span> minutos</li>
+                <li>Todo lo necesario para <span class="highlight">aprobar</span></li>
+              </ul>
+    
+            </div>
+            <!-- -->
+    
+            <a href="#" class="start fadeIn animated">¡Estoy listo!</a>
+          </div>
+    
+          <div class="test-pregunta fadeInright ">
+            <div class="test-pregunta-pregunta"></div>
+            <ul class="test-lista">
+    
+            </ul>
+            <span class="counter">Pregunta <span class="actual">1</span>/
+            <span class="highlight">30</span></span>
+    
+    
+          </div>
+          <div class="scoreCard"></div>
+        </div>
+        <div class="footer">
+          <img src="http://www.academialomas.com.uy/img/logo_pie.png" alt="">
+          <ul>
+            <li>Real de Azúa M.70 S. 6 Solymar Norte - Canelones - Uruguay</li>
+            <li>Telefono: <span class="green">2695 71 34*</span>
+            </li>
+            <li>Movil: <span class="green">099 17 23 23</span> -- <span class="green">095 73 23 23</span></li>
+          </ul>
+        </div>
+      </div>
+      <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+      <script src="simulador.js"></script>
+    </body>
+    
+    </html>

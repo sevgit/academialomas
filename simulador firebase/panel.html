@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Panel - Academia Lomas</title>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="simulador.css">
+    <script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
+    <script>// Initialize Firebase
+      const config = {
+        apiKey: "AIzaSyDBZolyXfLHcyc24j_rUsPJigvXMmcnnLM",
+        authDomain: "academia-lomas.firebaseapp.com",
+        databaseURL: "https://academia-lomas.firebaseio.com",
+        projectId: "academia-lomas",
+        storageBucket: "",
+        messagingSenderId: "537654016832"
+      };
+      firebase.initializeApp(config);</script>
+</head>
+
+<div class="main-container container">
+    <div class="logo">
+        <img src="http://www.academialomas.com.uy/img/logo.png" alt="">
+    </div>
+    <div id="mainCard" class="fadeIn animated">
+        <span class="userSpan"></span>
+        <button id="btnlogout" class="panelbtn">Salir</button>
+
+        <div class="panelList">
+            <ul class="userList">
+
+            </ul>
+        </div>
+    </div>
+    <div id="loginCard" class="fadeIn animated">
+        <input type="email" name="email" placeholder="Email" id="email">
+        
+        <input type="password" name="password" placeholder="Contraseña" id="password">
+     
+        <button id="btnlogin" class="panelbtn">Conectarse</button>
+    </div>
+   
+
+</div>
+
+
+    
+<body>
+        <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <script src="panel.js"></script>
+    
+</body>
+</html>
