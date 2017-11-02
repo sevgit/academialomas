@@ -211,8 +211,33 @@ display:none;
 margin: 0 auto;
 padding: 25px;
 text-align:center;
+
 }
 
+#mainCard .userList {
+  list-style: none;
+  padding:0;
+  margin-top:10px;
+
+}
+
+#mainCard .userList li {
+  min-width:300px;
+  padding: 2px 5px;
+  border-left: 1px solid #ddd;
+}
+#mainCard .userList li .detalle-usuario{
+  display:block;
+  font-size:14px;
+  font-weight: 400;
+}
+
+.bold {
+  font-weight: 600 !important;
+}
+.remove-user {
+  float:right
+}
 #loginCard input {
   display: block;
   margin: 10px auto;
@@ -242,3 +267,4 @@ text-align:center;
 #btnlogout.panelbtn {
   margin-top: 0;
 }
+

@@ -45,10 +45,11 @@ $(document).ready(function() {
 
 function gotUsers(data){
     const ul = $(".userList");
+    
     console.log(data.val())
 
     $.each(data.val(), function(index, value) {
-        ul.append("<li>"+data.val()[index].ci+"</li>");
+        ul.append("<li>"+"<span class='remove-user'>X</span>" +"<span class='detalle-usuario'><span class='bold'>Nombre: </span>"+ data.val()[index].name +"</span>"+ "<span class='detalle-usuario'><span class='bold'>Cédula: </span>" + data.val()[index].ci+ "</span>"+ "<span class='detalle-usuario'><span class='bold'>Intentos fallidos: </span>"+data.val()[index].strikes +"</span></li>");
       });
     
   }  
