@@ -90,8 +90,10 @@ $(document).ready(function() {
   })
 
   ul.on("click", $(".remove-user"), function(event) {
+ 
+  
     usuarios.child(event.target.parentNode.getAttribute("key")).remove();
-   
+    
     
   })
 });

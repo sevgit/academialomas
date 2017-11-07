@@ -17,8 +17,12 @@ $(document).ready(function() {
   }  
   function gotData(data) {
     Test.preguntas = data.val();
-    console.log(data.val());
-    console.log(Test.preguntas);
+    
+    $.map( Test.preguntas, function( value, index ) {
+      Test.correctas[index] = value.correctas;
+    });
+    console.log(Test.correctas)
+    
   }
 
   function errData(err) {
@@ -31,7 +35,8 @@ $(document).ready(function() {
   const actual = $(".actual");
   const scoreCard = $(".scoreCard");
   const Test = {
-    correctas: [1,0,0,3,2,2,1,0,1,0,3,0,2,0,1,0,0,2,0,3,3,0,2,0,3,1,1,0,2,2],
+    preguntas:[],
+    correctas: [],
     respuestasUsuario: [],
     aciertos: 0,
     incorrectas:[],
@@ -87,9 +92,7 @@ $(document).ready(function() {
       });
       Test.step++;
       actual.html(Test.step);
-    }},
-    
-    preguntas:[],
+    }}
   };
   $(".start").click(function() {
     $(".test-intro").addClass("fadeOutLeft animated");
