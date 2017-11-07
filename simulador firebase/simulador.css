@@ -72,7 +72,7 @@ ul.test-lista li:hover {
 }
 
 .start {
-  display: block;
+  display: none;
   max-width: 60%;
   margin: 25px auto;
   padding: 20px 0;

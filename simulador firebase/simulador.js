@@ -9,14 +9,20 @@ $(document).ready(function() {
     usuarios.orderByChild('ci').equalTo(input).once('value', gotUsers, errUsers);
 
   }
-  preguntas.once('value', gotData, errData);
+
+  
   
 
 
   function gotUsers(data){
     if (data.val()) {
-      Test.users = data.val();
-    console.log(Test.users);
+      Test.users = data.val()[Object.keys(data.val())[0]].name;
+
+      
+      $(".login-simulador-completo").css("display", "none");
+      preguntas.once('value', gotData, errData);
+      
+ 
     } else {
       $(".alerta").css("display", "block").html("Usuario no encontrado. Escribe tu cédula sin puntos ni guiones");
     }
@@ -32,7 +38,9 @@ $(document).ready(function() {
     $.map( Test.preguntas, function( value, index ) {
       Test.correctas[index] = value.correctas;
     });
+    $(".start").css("display", "block");
     console.log(Test.correctas)
+    console.log(Test.preguntas)
     
   }
 
@@ -69,7 +77,7 @@ $(document).ready(function() {
       
       testContainer.children().css( "display", "none" );
       
-      scoreCard.append("<h2 class='fadeInUp animated'>Resultado:"+resultado + "" +"</h2>" +"Correctas: "+ Test.aciertos + "/30")
+      scoreCard.append("<h2 class='fadeInUp animated'>"+ Test.users.split(" ")[0] + " tu examen fue:"+resultado + "" +"</h2>" +"Correctas: "+ Test.aciertos + "/30")
         .append("<ul class='score'></ul>")
         $.each(Test.incorrectas, function(index, value) {
         scoreCard.children(".score").append(
@@ -132,7 +140,7 @@ $(document).ready(function() {
       Test.aciertos += 1;
     } else {
     
-      Test.incorrectas.push({pregunta: Test.preguntas[Test.respuestasUsuario.length - 1].pregunta, respuesta: Test.preguntas[Test.respuestasUsuario.length - 1].respuestas[Test.preguntas[Test.respuestasUsuario.length - 1].correcta]})
+      Test.incorrectas.push({pregunta: Test.preguntas[Test.respuestasUsuario.length - 1].pregunta, respuesta: Test.preguntas[Test.respuestasUsuario.length - 1].respuestas[Test.preguntas[Test.respuestasUsuario.length - 1].correctas]})
     } 
     Test.setQuestion();
   });
