@@ -281,11 +281,40 @@ text-align:center;
   padding: 5px 8px;
   border-radius:5px;
   cursor:pointer;
+  text-decoration:none;
+}
+
+.panelbtn:hover {
+  text-decoration:none;
+  color:white;
 }
 
 #btnlogout.panelbtn
  {
   margin-top: 0;
+}
+
+.login-simulador-completo {
+ text-align: center;
+}
+.login-simulador-completo input {
+  display:block;
+  margin: 15px auto;
+  height:35px;
+  min-width:60%;
+  max-width:95%;
+}
+
+.alerta {
+    display:none;
+    font-size: 13px;
+    padding: 2px 4px;
+    margin-top:10px;
+    margin-bottom:10px;
+    color: #D81B60;
+    background-color: #f9f2f4;
+    border: 1px solid #D81B60;
+    border-radius: 4px
 }
 
 

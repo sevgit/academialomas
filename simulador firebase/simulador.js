@@ -1,16 +1,27 @@
 $(document).ready(function() {
   
+ 
   const db = firebase.database();
-  const ref = db.ref('preguntas');
+  const preguntas = db.ref('preguntas');
   const usuarios = db.ref('usuarios');
 
-  ref.on('value', gotData, errData);
-  usuarios.on('value', gotUsers, errUsers);
+  function checkUser(input) {
+    usuarios.orderByChild('ci').equalTo(input).once('value', gotUsers, errUsers);
+
+  }
+  preguntas.once('value', gotData, errData);
+  
 
 
   function gotUsers(data){
-    Test.users = data.val();
+    if (data.val()) {
+      Test.users = data.val();
     console.log(Test.users);
+    } else {
+      $(".alerta").css("display", "block").html("Usuario no encontrado. Escribe tu cédula sin puntos ni guiones");
+    }
+    
+
   }  
   function errUsers(err){
     console.log(err);
@@ -34,7 +45,9 @@ $(document).ready(function() {
   const testLista = $(".test-lista");
   const actual = $(".actual");
   const scoreCard = $(".scoreCard");
+
   const Test = {
+    users: [],
     preguntas:[],
     correctas: [],
     respuestasUsuario: [],
@@ -94,6 +107,11 @@ $(document).ready(function() {
       actual.html(Test.step);
     }}
   };
+  $("#signInbtn").click(function() {
+    const inputValue = $("#ci").val() 
+      checkUser(inputValue);
+    
+  });
   $(".start").click(function() {
     $(".test-intro").addClass("fadeOutLeft animated");
     setTimeout(function() {

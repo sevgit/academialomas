@@ -31,12 +31,19 @@
     
         <div class="main-test">
           <div class="test-intro">
-            <h2 class="highlight">Test teórico</h2>
+            <h2 class="highlight">Test teórico completo</h2>
             <p>Creamos este simulacro para que puedan evaluar sus conocimientos y llegar al examen teórico con mayor tranquilidad.</p>
             <p>Pueden consultar el manual dando click <a class="highlight" href="ManualAutosYMotos.pdf" target="_blank" class="page">aquí</a>.</p>
     
-            <p>Si sus resultados no son óptimos: ¡No se desanimen! Pueden agendar una clase teórica con cualquiera de nuestros instructores o llamando al <span class="highlight">2695 71 34</span></p>
-            <div class="puntos">
+            <p>Antes de comenzar, necesitamos verificar tus datos. Por favor ingresa tu cédula en el siguiente campo:</p>
+            <div class="login-simulador-completo">
+            <span class="alerta"></span>
+            <input type="number" name="ci" id="ci" placeholder="Cédula sin puntos ni guiones">
+            <a href="#" id="signInbtn" class="panelbtn">Ingresar</a>
+
+
+            </div>
+            <!-- <div class="puntos">
               <ul>
                 <li><span class="highlight">30</span> preguntas</li>
                 <li><span class="highlight">30</span> minutos</li>
@@ -44,9 +51,9 @@
               </ul>
     
             </div>
-            <!-- -->
+            -->
     
-            <a href="#" class="start fadeIn animated">¡Estoy listo!</a>
+            <a href="#" class="start fadeIn animated" disabled>¡Estoy listo!</a>
           </div>
     
           <div class="test-pregunta fadeInright ">

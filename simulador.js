@@ -25,7 +25,7 @@ $(document).ready(function() {
       
       testContainer.children().css( "display", "none" );
       
-      scoreCard.append("<h2 class='fadeInUp animated'>Resultado:"+resultado + "" +"</h2>" +"Correctas: "+ Test.aciertos + "/30")
+      scoreCard.append("<h2 class='fadeInUp animated'>Resultado:"+resultado + "" +"</h2>" +"<p>Correctas: "+ Test.aciertos + "/30</p>")
         .append("<ul class='score'></ul>")
         $.each(Test.incorrectas, function(index, value) {
         scoreCard.children(".score").append(
@@ -117,7 +117,7 @@ $(document).ready(function() {
         correcta: 2
       },
       {
-        pregunta: "¿Qué significa esta señal? <img src='http://laduchacultural.com/vm/wp-content/uploads/2017/10/puente-estrecho.jpg' />",
+        pregunta: "¿Qué significa esta señal? <img src='img/puente-estrecho.jpg' />",
         respuestas: ["Carril angosto", "Puente estrecho", "Supresión de carril", "Paso a nivel sin barrera"],
         correcta: 1
       },
@@ -164,12 +164,12 @@ $(document).ready(function() {
       },
       
       {
-        pregunta: "¿Qué significa esta señal? <img src='http://laduchacultural.com/vm/wp-content/uploads/2017/10/prohibido-girar-u.jpg' />",
+        pregunta: "¿Qué significa esta señal? <img src='img/prohibido-girar-u.jpg' />",
         respuestas: ["Prohibido girar en U", "Prohibido dar marcha atrás", "Prohibido doblar", "Calzada de un único sentido"],
         correcta: 0
       },
       {
-        pregunta: "¿Qué significa esta señal? <img src='http://laduchacultural.com/vm/wp-content/uploads/2017/10/calzada-resbaladiza.jpg' />",
+        pregunta: "¿Qué significa esta señal? <img src='img/calzada-resbaladiza.jpg' />",
         respuestas: ["Proyección de gravilla", "Peligro de aceite", "Calzada resbaladiza", "Curva peligrosa"],
         correcta: 2
       },
@@ -179,7 +179,7 @@ $(document).ready(function() {
         correcta: 0
       },
       {
-        pregunta: "¿Qué no podemos hacer en presencia de esta señal? <img src='http://laduchacultural.com/vm/wp-content/uploads/2017/10/prohibido-estacionar-detenerse.jpg' />",
+        pregunta: "¿Qué no podemos hacer en presencia de esta señal? <img src='img/prohibido-estacionar-detenerse.jpg' />",
         respuestas: ["Estacionar", "Ni estacionar ni detenernos", "Detenernos", "Estacionar sin permiso especial"],
         correcta: 1
       },
