@@ -11,14 +11,19 @@ $(document).ready(function() {
   }
 
   
-  
+ 
 
 
   function gotUsers(data){
     if (data.val()) {
-      Test.users = data.val()[Object.keys(data.val())[0]].name;
-
+      Test.user = {
+        id: Object.keys(data.val())[0],
+        name: data.val()[Object.keys(data.val())[0]].name, 
+        ci: data.val()[Object.keys(data.val())[0]].ci,
+        strikes: data.val()[Object.keys(data.val())[0]].strikes,
+      }
       
+      console.log(Test.user)
       $(".login-simulador-completo").css("display", "none");
       preguntas.once('value', gotData, errData);
       
@@ -39,8 +44,7 @@ $(document).ready(function() {
       Test.correctas[index] = value.correctas;
     });
     $(".start").css("display", "block");
-    console.log(Test.correctas)
-    console.log(Test.preguntas)
+
     
   }
 
@@ -55,7 +59,7 @@ $(document).ready(function() {
   const scoreCard = $(".scoreCard");
 
   const Test = {
-    users: [],
+    user: [],
     preguntas:[],
     correctas: [],
     respuestasUsuario: [],
@@ -75,9 +79,17 @@ $(document).ready(function() {
     showScore: function(){
       var resultado =  (Test.aciertos >= 24 ) ? "<span class='green'> APROBADO</span>" : "<span class='crimson'> REPROBADO</span>";
       
+      if (Test.aciertos < 24) {
+        db.ref('usuarios/' + Test.user[Object.keys(Test.user)[0]]).set({
+          id: Test.user.id,
+          ci: Test.user.ci,
+          name: Test.user.name,
+         strikes: Test.user.strikes + 1
+  });
+      }
       testContainer.children().css( "display", "none" );
       
-      scoreCard.append("<h2 class='fadeInUp animated'>"+ Test.users.split(" ")[0] + " tu examen fue:"+resultado + "" +"</h2>" +"Correctas: "+ Test.aciertos + "/30")
+      scoreCard.append("<h2 class='fadeInUp animated'>"+ Test.user.name.split(" ")[0] + " tu examen fue:"+resultado + "" +"</h2>" +"Correctas: "+ Test.aciertos + "/30")
         .append("<ul class='score'></ul>")
         $.each(Test.incorrectas, function(index, value) {
         scoreCard.children(".score").append(
