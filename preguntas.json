@@ -1,452 +1,530 @@
 {
-	"preguntas": [{
-			"pregunta": "¿Cómo se señaliza un giro hacia la derecha en caso de tener el señalero averiado?",
-			"respuestas": [
-				"Brazo y mano hacia abajo",
-				"Brazo y mano hacia arriba",
-				"Brazo y mano rectos",
-				"Bocina y luces de freno"
-			],
-			"correcta": 1
-		},
-		{
-			"pregunta": "El alcohol afecta el nivel atencional del individuo",
-			"respuestas": ["Verdadero", "Falso"],
-			"correctas": 0
-		},
-		{
-			"pregunta": "¿Cuál es la distancia máxima permitida entre las ruedas y el cordón al estacionar?",
-			"respuestas": ["30cm", "5cm", "50cm", "70cm"],
-			"correctas": 0
-		},
-		{
-			"pregunta": "Ante la proximidad de vehículos de emergencia",
-			"respuestas": [
-				"Debe detener su vehículo.",
-				"Debe avisar con las luces al vehículo que le antecede.",
-				"Debe aumentar la velocidad.",
-				"Debe despejar rápidamente la calle, deteniendo su vehículo donde no moleste."
-			],
-			"correctas": 3
-		},
-		{
-			"pregunta": "Cuando usted dobla a la derecha:",
-			"respuestas": [
-				"Debe acercar su vehículo a la izquierda, encender el señalero y doblar con precaución.",
-				"Debe encender el señalero derecho.",
-				"Debe mirar por el espejo retrovisor, encender el señalero y acercarse al cordón derecho."
-			],
-			"correctas": 2
-		},
-		{
-			"pregunta": "Si es imposible estacionar dejando paso a la circulación de vehículos ud:",
-			"respuestas": [
-				"Estaciona en doble fila",
-				"Estaciona parte del auto sobre la acera",
-				"Busca un lugar seguro para estacionar en otro lugar",
-				"Enciende las balizas y estaciona en doble fila"
-			],
-			"correctas": 2
-		},
-		{
-			"pregunta": "¿Qué significa esta señal? <img src='http://laduchacultural.com/vm/wp-content/uploads/2017/10/puente-estrecho.jpg' />",
-			"respuestas": ["Carril angosto", "Puente estrecho", "Supresión de carril", "Paso a nivel sin barrera"],
-			"correctas": 1
-		},
-		{
-			"pregunta": "Al momento de ser adelantado por otro vehículo, usted:",
-			"respuestas": [
-				"Mantiene o disminuye la velocidad",
-				"Aumenta la velocidad",
-				"Enciende el señalero derecho para dar paso a la maniobra",
-				"Se acerca al carril izquierdo."
-			],
-			"correctas": 0
-		},
-		{
-			"pregunta": "En un cruce no reglamentado, ¿qué auto debe ceder la preferencia?",
-			"respuestas": [
-				"El último en llegar al cruce",
-				"El que se acerca por la izquierda",
-				"El primero en llegar al cruce",
-				"El que se acerca por la derecha"
-			],
-			"correctas": 1
-		},
-		{
-			"pregunta": "Si explota uno de nuestros neumáticos debemos:",
-			"respuestas": [
-				"Sostener fuerte el volante y dirigirnos a un lugar seguro",
-				"Acelerar hacia la acera y estacionar lo antes posible",
-				"Colocar el freno de mano y torcer las ruedas hacia la acera",
-				"Encender balizas, tocar bocina y frenar en el lugar"
-			],
-			"correctas": 0
-		},
-		{
-			"pregunta": "Los medicamentos pueden",
-			"respuestas": [
-				"Generar somnolencia",
-				"Aportar negativamente a la fatiga",
-				"Relentizar la reacción del conductor",
-				"Todas son correctas"
-			],
-			"correctas": 3
-		},
-
-		{
-			"pregunta": "¿Qué significa esta señal? <img src='http://laduchacultural.com/vm/wp-content/uploads/2017/10/prohibido-girar-u.jpg' />",
-			"respuestas": ["Prohibido girar en U", "Prohibido dar marcha atrás", "Prohibido doblar", "Calzada de un único sentido"],
-			"correctas": 0
-		},
-		{
-			"pregunta": "¿Qué significa esta señal? <img src='http://laduchacultural.com/vm/wp-content/uploads/2017/10/calzada-resbaladiza.jpg' />",
-			"respuestas": ["Proyección de gravilla", "Peligro de aceite", "Calzada resbaladiza", "Curva peligrosa"],
-			"correctas": 2
-		},
-		{
-			"pregunta": "¿Podemos adelantar en un repecho?",
-			"respuestas": ["No", "Solo con extremo cuidado", "Solo en calles de un único sentido", "Se puede siempre"],
-			"correctas": 0
-		},
-		{
-			"pregunta": "¿Qué no podemos hacer en presencia de esta señal? <img src='http://laduchacultural.com/vm/wp-content/uploads/2017/10/prohibido-estacionar-detenerse.jpg' />",
-			"respuestas": ["Estacionar", "Ni estacionar ni detenernos", "Detenernos", "Estacionar sin permiso especial"],
-			"correctas": 1
-		},
-		{
-			"pregunta": "Derecho preferente de paso es:",
-			"respuestas": ["La facultad de un peatón o conductor de un vehículo para proseguir la marcha", "La facultad del conductor de un vehículo para cambiar de dirección careciendo de preferencia", "La facultad del conductor de un vehículo para no detener la marcha al ingresar a una calle de preferencia", "Ninguna de las anteriores es correcta"],
-			"correctas": 0
-		},
-		{
-			"pregunta": "En carretera se debe aminorar la marcha en:",
-			"respuestas": ["Zonas urbanas y caseríos.", "Curvas y cruces.", "Pasos a nivel y puentes.", "Todas las anteriores son correctas."],
-			"correctas": 3
-		},
-		{
-			"pregunta": "El tiempo de reacción del conductor se ve afectado por:",
-			"respuestas": ["El estado de la ruta.", "La velocidad a la cual conduce.", "El cansancio.", "Los defectos mecánicos del vehículo."],
-			"correctas": 2
-		},
-		{
-			"pregunta": "Los funcionarios del cuerpo de inspectores de tránsito, están facultados para modificar las preferencias establecidas cuando las circunstancias lo requieran:",
-			"respuestas": ["Verdadero", "Falso"],
-			"correctas": 0
-		},
-		{
-			"pregunta": "Al conducir en carretera su fatiga aumenta si:",
-			"respuestas": ["Se escucha música.", "Se viaja con ventanilla cerrada.", "El paisaje es monótono.", "Solo la 2 y 3 son correctas"],
-			"correctas": 3
-		},
-		{
-			"pregunta": "¿Qué luces debe llevar encendidas un vehículo durante la noche en las áreas urbanas?",
-			"respuestas": ["Luces altas o bajas de acuerdo a la situación del tránsito.", "Cualquiera indistintamente.", "Luces de posición.", "Solo la 1 y 3 son correctas"],
-			"correctas": 3
-		},
-		{
-			"pregunta": "Si su vehículo comienza a patinar al momento de frenar:",
-			"respuestas": ["Procure detenerlo bombeando intermitentemente el freno.", "Frene enérgicamente.", "Acelere.", "Todas las anteriores son incorrectas."],
-			"correctas": 0
-		},
-		{
-			"pregunta": "Cuando se trata de evitar un choque de frente en carretera Ud deberá:",
-			"respuestas": ["Frenar.", "Rebajar los cambios.", "Desviarse hacia la banquina.", "Encender las luces largas."],
-			"correctas": 2
-		},
-		{
-			"pregunta": "Siempre se debe prestar atención a la luz del semáforo que está frente a uno:",
-			"respuestas": ["Verdadero.", "Falso."],
-			"correctas": 0
-		},
-		{
-			"pregunta": "¿Para quién es obligatorio el uso del cinturón de seguridad?",
-			"respuestas": ["Sólo para los ocupantes de los asientos traseros de los vehículos automotores.", "Sólo para los ocupantes de los asientos delanteros de los vehículos automotores.", "Ninguna de las anteriores.", "Para todos los ocupantes del vehículo."],
-			"correctas": 3
-		},
-		{
-			"pregunta": "Ud. puede circular sin espejo retrovisor cuando circula a baja velocidad",
-			"respuestas": ["Verdadero", "Falso"],
-			"correctas": 1
-		},
-		{
-			"pregunta": "La velocidad adecuada de circulación de un vehículo en caso de aglomeración de personas es:",
-			"respuestas": ["15 km/h", "A paso de peatón.", "25 km/h", "Ninguna de las anteriores es correcta."],
-			"correctas": 1
-		},
-		{
-			"pregunta": "Durante la noche en áreas urbanas los vehículos deben circular con todas las luces reglamentarias encendidas.",
-			"respuestas": ["Verdadero.", "Falso."],
-			"correctas": 0
-		},
-		{
-			"pregunta": "¿Cómo se comporta Ud. frente a un agente de tránsito de perfil hacia su carril?",
-			"respuestas": ["Detiene totalmente la marcha", "Espera a que se vacíe el cruce", "Sigue la marcha."],
-			"correctas": 2
-		},
-		{
-			"pregunta": "Al encontrar a un accidentado Ud. debe:",
-			"respuestas": ["Quitarle el casco en caso de tenerlo puesto.", "Proporcionarle comida o alimento si lo solicita.", "Promover la calma y llamar a la emergencia.", "Todas las anteriores son correctas."],
-			"correctas": 2
-		},
-		{
-			"pregunta": "En condiciones de tránsito comunes, un vehículo podrá ser conducido marcha atrás sólo:",
-			"respuestas": ["50 mts.", "35 mts.", "en caso de necesidad para estacionar", "ninguna de las anteriores es correcta."],
-			"correctas": 2
-		},
-		{
-			"pregunta": "Los inspectores de la IMM y/o policía de tránsito están facultados al retiro de la documentación del conductor y/o vehículo.",
-			"respuestas": ["verdadero", "falso"],
-			"correctas": 0
-		},
-		{
-			"pregunta": "Antes de empezar a pasar el vehículo que va adelante, Ud. deberá:",
-			"respuestas": ["mirar espejo retrovisor y prender el señalero", "tocar la bocina", "hacer cambio de luces", "ninguna de las anteriores es correcta", "todas las anteriores son correctas"],
-			"correctas": 0
-		},
-		{
-			"pregunta": "Si Ud. esta cruzando una calle, la luz amarilla de un semáforo indica:",
-			"respuestas": ["atención, obligación a despejar el cruce", "derecho de paso", "detenerse", "despacio, escuela"],
-			"correctas": 0
-		},
-		{
-			"pregunta": "Solo se puede adelantar a otro vehículo por la derecha si éste esta girando o se dispone a girar a la izquierda:",
-			"respuestas": ["verdadero", "falso"],
-			"correctas": 0
-		},
-		{
-			"pregunta": "Los funcionarios del cuerpo de inspectores de tránsito están facultados para modificar las preferencias establecidas cuando las circunstancias lo requieran:",
-			"respuestas": ["verdadero", "falso"],
-			"correctas": 0
-		},
-		{
-			"pregunta": "Cuando los neumáticos tienen poca presión de aire, se ahorra combustible:",
-			"respuestas": ["verdadero", "falso"],
-			"correctas": 1
-		},
-		{
-			"pregunta": "El uso del cinturón de seguridad es tan importante en la ciudad como en la carretera:",
-			"respuestas": ["verdadero", "falso"],
-			"correctas": 0
-		},
-		{
-			"pregunta": "Es necesario duplicar la distancia entre su vehículo y el que lo antecede en:",
-			"respuestas": ["amanecer", "atardecer", "pavimento resbaloso", "todas las anteriores son correctas"],
-			"correctas": 3
-		},
-		{
-			"pregunta": "En los días de lluvia se debe disminuir la velocidad aunque las condiciones del vehículo sean óptimas",
-			"respuestas": ["verdadero", "falso"],
-			"correctas": 0
-		},
-		{
-			"pregunta": "Un disgusto (alteraciones, discusiones, depresión) afecta:",
-			"respuestas": ["la visión lateral", "la audición", "el tiempo de reacción", "ninguna de las anteriores es correcta"],
-			"correctas": 2
-		},
-		{
-			"pregunta": "En una bajada pronunciada para mayor seguridad, debe poner el vehículo en punto muerto:",
-			"respuestas": ["verdadero", "falso"],
-			"correctas": 1
-		},
-		{
-			"pregunta": "La calle es el tramo de la vía pública destinado preferentemente a:",
-			"respuestas": ["la circulación de cualquier tipo de vehículos automotores", "solamente la circulación de peatones", "solamente la circulación de vehículos medianos"],
-			"correctas": 0
-		},
-		{
-			"pregunta": "Con el coche cargado las distancias para detenerse serán menores",
-			"respuestas": ["verdadero", "falso"],
-			"correctas": 1
-		},
-		{
-			"pregunta": "Cuando se maneja por períodos de mas de cuatro horas se deberá descansar por lo menos:",
-			"respuestas": ["10 minutos", "20 minutos", "50 minutos", "60 minutos"],
-			"correctas": 1
-		},
-		{
-			"pregunta": "La distancia prudencial entre dos vehículos que circulan en la misma dirección, es aquella que permite al conductor ver las ruedas traseras del vehículo que va adelante:",
-			"respuestas": ["verdadero", "falso"],
-			"correctas": 1
-		},
-		{
-			"pregunta": "Los objetos duros y con puntas depositados en los estantes delanteros y traseros, se pueden convertir en proyectiles peligrosos en una frenada brusca",
-			"respuestas": ["verdadero", "falso"],
-			"correctas": 0
-		},
-		{
-			"pregunta": "Aun tomando descansos, no se deberá conducir por más de 9 horas contínuas",
-			"respuestas": ["verdadero", "falso"],
-			"correctas": 0
-		},
-		{
-			"pregunta": "A partir de los 35 y 40 años de edad se va perdiendo la rapidez para reaccionar",
-			"respuestas": ["verdadero", "falso"],
-			"correctas": 0
-		},
-		{
-			"pregunta": "¿Qué debe hacer un conductor al iniciar un giro a la izquierda desde una calle de doble mano?",
-			"respuestas": ["aproximarse a la linea central o eje de la calle, señalizando con suficiente anticipación.", "ubicarse sobre el lado izquierdo del eje de la calzada.", "acercarse lo más a la derecha posible.", "ninguna de las anteriores es correcta."],
-			"correctas": 0
-		},
-		{
-			"pregunta": "Los peatones que circulan por la vereda tienen preferencia de paso ante un vehículo que la atraviesa para entrar o salir de un garaje.",
-			"respuestas": ["verdadero", "falso"],
-			"correctas": 0
-		},
-		{
-			"pregunta": "Los vehículos que tengan sus neumáticos con bandas de rodamiento gastadas",
-			"respuestas": ["podrán circular solo de noche.", "podrán circular solo de día.", "no podrán circular."],
-			"correctas": 2
-		},
-		{
-			"pregunta": "Si es encandilado por otro vehículo Ud. deberá",
-			"respuestas": ["hacer cambio de luces.", "colocar las luces cortas.", "tirarse a la banquina si el coche es inevitable.", "solo la 1 y 3 son correctas."],
-			"correctas": 3
-		},
-		{
-			"pregunta": "El conductor de un vehículo puede sobrepasar a otro por la derecha cuando:",
-			"respuestas": ["el vehículo de adelante va a doblar a la derecha.", "el vehículo de adelante va a doblar a la izquierda.", "nunca.", "el vehículo de adelante da paso a otros."],
-			"correctas": 1
-		},
-		{
-			"pregunta": "En caso de quedarse sin frenos, cuando el pedal ofrece algo de resistencia lo primero a intentar es bombearlo varias veces",
-			"respuestas": ["verdadero", "falso"],
-			"correctas": 0
-		},
-		{
-			"pregunta": "Las bebidas alcohólicas tomadas junto con algunos antialérgicos disminuyen la capacidad de conducir",
-			"respuestas": ["verdadero", "falso"],
-			"correctas": 0
-		},
-		{
-			"pregunta": "Con mucha carga en la valija del automovil se afectará",
-			"respuestas": ["el consumo de combustible.", "el mecanismo de la dirección.", "la altura de los faros delanteros.", "solo la 2 y 3 son correctas"],
-			"correctas": 3
-		},
-		{
-			"pregunta": "Cuando llueve:",
-			"respuestas": ["debe circular en el centro de la calzada.", "debe circular a la derecha del centro de la calzada.", "ninguna de las anteriores es correcta."],
-			"correctas": 1
-		},
-		{
-			"pregunta": "Si observa que encienden las luces blancas del vehículo, ello significa:",
-			"respuestas": ["que da marcha atrás.", "que se dispone a pasar a otro.", "que va a frenar.", "que va a girar a la derecha."],
-			"correctas": 0
-		},
-		{
-			"pregunta": "Hasta los 70 años de edad no se altera la rapidez para reaccionar",
-			"respuestas": ["verdadero", "falso"],
-			"correctas": 1
-		},
-		{
-			"pregunta": "El ruido que produce el silenciador en mal estado no aumenta la fatiga del conductor",
-			"respuestas": ["verdadero", "falso"],
-			"correctas": 1
-		},
-		{
-			"pregunta": "La IMM está facultada para retirar de la vía pública los vehículos mal estacionados o estacionados en lugar prohibido",
-			"respuestas": ["verdadero", "falso"],
-			"correctas": 0
-		},
-		{
-			"pregunta": "Por norma general Ud. debe circular por la izquierda de la calzada",
-			"respuestas": ["verdadero", "falso"],
-			"correctas": 1
-		},
-		{
-			"pregunta": "Las rutas nacionales son la única via de circulación de preferencia aun cuando las transfersales no tengan el signo de PARE",
-			"respuestas": ["verdadero", "falso"],
-			"correctas": 0
-		},
-		{
-			"pregunta": "Ante destellantes amarillos instalados en las cercanías de las escuelas: ¿a qué velocidad debe circular?",
-			"respuestas": ["15 km/h", "A paso de peatón.", "25 km/h", "Ninguna de las anteriores es correcta."],
-			"correctas": 1
-		},
-		{
-			"pregunta": "Nunca debe adelantarse a un vehículo que esta doblando a la derecha",
-			"respuestas": ["verdadero", "falso"],
-			"correctas": 1
-		},
-		{
-			"pregunta": "Adelantamiento correcto es una maniobra efectuada:",
-			"respuestas": ["por el costado izquierdo del vehículo que se va a adelantar.", "por el costado derecho del vehículo que se va a adelantar.", "por la banquina si la hubiere.", "nunca se debe adelantar."],
-			"correctas": 0
-		},
-		{
-			"pregunta": "Para conducir adecuadamente es importante observar la luz del semáforo que está frente a Ud.",
-			"respuestas": ["verdadero", "falso"],
-			"correctas": 0
-		},
-		{
-			"pregunta": "¿Qué tramo de la calle se debe utilizar exclusivamente para manejar un vehículo?",
-			"respuestas": ["la banquina.", "la calzada.", "la acera.", "ninguna de las anteriores son correctas."],
-			"correctas": 1
-		},
-		{
-			"pregunta": "Tienen preferencia de paso cuando hagan las señales correspondientes:",
-			"respuestas": ["las ambulancias.", "patrulleros y bomberos", "los vehículos del departamento de tránsito.", "todas las anteriores son correctas"],
-			"correctas": 3
-		},
-		{
-			"pregunta": "Al encontrarse la calle mojada por la lluvia ¿qué debe hacer Ud.?",
-			"respuestas": ["disminuir la velocidad.", "aumentar la velocidad.", "estar atento a frenar.", "solo la 1 y 3 son correctas"],
-			"correctas": 3
-		},
-		{
-			"pregunta": "La velocidad máxima a la que debe conducir en la zona urbana, salvo expresas excepciones es:",
-			"respuestas": ["20 km/h", "45 km/h", "60 km/h", "ninguna de las anteriores es correcta."],
-			"correctas": 1
-		},
-		{
-			"pregunta": "Para señalizar con el brazo la disminución de la velocidad o detención del vehículo, se deberá colocar:",
-			"respuestas": ["extendido horizontalmente.", "en ángulo recto hacia abajo.", "extendido hacia abajo.", "ninguna de las opciones es correcta."],
-			"correctas": 2
-		},
-		{
-			"pregunta": "Las luces largas deberán sustituirse por las de alcance medio cuando haya riesgo de encandilarse",
-			"respuestas": ["verdadero", "falso"],
-			"correctas": 0
-		},
-		{
-			"pregunta": "Cuando un automóvil al salir del garaje cruza la vereda, obtiene la preferencia sobre los peatones que circulan en ella",
-			"respuestas": ["verdadero", "falso"],
-			"correctas": 1
-		},
-		{
-			"pregunta": "La visión se reduce:",
-			"respuestas": ["en horas de la noche.", "con el encandilamiento.", "cuando mayor velocidad se desarrolla.", "todas son correctas."],
-			"correctas": 3
-		},
-		{
-			"pregunta": "El color de las luces que proyectan hacia adelante los vehículos pueden ser:",
-			"respuestas": ["rojas o blancas.", "amarillas o blancas.", "verdes o blancas.", "ninguna de las anteriores es correcta."],
-			"correctas": 1
-		},
-		{
-			"pregunta": "Durante la carga de combustible se puede dejar el motor encendido",
-			"respuestas": ["verdadero", "falso"],
-			"correctas": 1
-		},
-		{
-			"pregunta": "En las calles de doble sentido los vehículos que circulen en sentido opuesto al cruzarse:",
-			"respuestas": ["deberán encender las luces bajas.", "deberán circular por el eje de la calzada demarcada o imaginaria.", "no pasarán el eje de la calzada demarcada o imaginaria.", "hacer un destello de luces."],
-			"correctas": 2
-		},
-		{
-			"pregunta": "Por norma general Ud. debe circular por la mitad derecha de la calzada",
-			"respuestas": ["verdadero", "falso"],
-			"correctas": 0
-		},
-		{
-			"pregunta": "Un conductor al enfrentar una señal de 'Ceda el Paso' deberá:",
-			"respuestas": ["detenerse siempre.", "seguir la marcha a la misma velocidad.", "reducir la velocidad y detenerse siempre si es necesario.", "acelerar."],
-			"correctas": 2
-		},
-		{
-			"pregunta": "Nunca debe adelantarse a un vehículo que está dando paso a peatones",
-			"respuestas": ["verdadero", "falso"],
-			"correctas": 0
-		}]
+  "preguntas" : [ {
+    "correctas" : 1,
+    "pregunta" : "¿Cómo se señaliza un giro hacia la derecha en caso de tener el señalero averiado?",
+    "respuestas" : [ "Brazo y mano hacia abajo", "Brazo y mano hacia arriba", "Brazo y mano rectos", "Bocina y luces de freno" ]
+  }, {
+    "correctas" : 0,
+    "pregunta" : "El alcohol afecta el nivel atencional del individuo",
+    "respuestas" : [ "Verdadero", "Falso" ]
+  }, {
+    "correctas" : 0,
+    "pregunta" : "¿Cuál es la distancia máxima permitida entre las ruedas y el cordón al estacionar?",
+    "respuestas" : [ "30cm", "5cm", "50cm", "70cm" ]
+  }, {
+    "correctas" : 3,
+    "pregunta" : "Ante la proximidad de vehículos de emergencia",
+    "respuestas" : [ "Debe detener su vehículo.", "Debe avisar con las luces al vehículo que le antecede.", "Debe aumentar la velocidad.", "Debe despejar rápidamente la calle, deteniendo su vehículo donde no moleste." ]
+  }, {
+    "correctas" : 2,
+    "pregunta" : "Cuando usted dobla a la derecha:",
+    "respuestas" : [ "Debe acercar su vehículo a la izquierda, encender el señalero y doblar con precaución.", "Debe encender el señalero derecho.", "Debe mirar por el espejo retrovisor, encender el señalero y acercarse al cordón derecho." ]
+  }, {
+    "correctas" : 2,
+    "pregunta" : "Si es imposible estacionar dejando paso a la circulación de vehículos ud:",
+    "respuestas" : [ "Estaciona en doble fila", "Estaciona parte del auto sobre la acera", "Busca un lugar seguro para estacionar en otro lugar", "Enciende las balizas y estaciona en doble fila" ]
+  }, {
+    "correctas" : 1,
+    "pregunta" : "¿Qué significa esta señal? <img src='/simulador/img/puente-estrecho.jpg' />",
+    "respuestas" : [ "Carril angosto", "Puente estrecho", "Supresión de carril", "Paso a nivel sin barrera" ]
+  }, {
+    "correctas" : 0,
+    "pregunta" : "Al momento de ser adelantado por otro vehículo, usted:",
+    "respuestas" : [ "Mantiene o disminuye la velocidad", "Aumenta la velocidad", "Enciende el señalero derecho para dar paso a la maniobra", "Se acerca al carril izquierdo." ]
+  }, {
+    "correctas" : 1,
+    "pregunta" : "En un cruce no reglamentado, ¿qué auto debe ceder la preferencia?",
+    "respuestas" : [ "El último en llegar al cruce", "El que se acerca por la izquierda", "El primero en llegar al cruce", "El que se acerca por la derecha" ]
+  }, {
+    "correctas" : 0,
+    "pregunta" : "Si explota uno de nuestros neumáticos debemos:",
+    "respuestas" : [ "Sostener fuerte el volante y dirigirnos a un lugar seguro", "Acelerar hacia la acera y estacionar lo antes posible", "Colocar el freno de mano y torcer las ruedas hacia la acera", "Encender balizas, tocar bocina y frenar en el lugar" ]
+  }, {
+    "correctas" : 3,
+    "pregunta" : "Los medicamentos pueden",
+    "respuestas" : [ "Generar somnolencia", "Aportar negativamente a la fatiga", "Relentizar la reacción del conductor", "Todas son correctas" ]
+  }, {
+    "correctas" : 0,
+    "pregunta" : "¿Qué significa esta señal? <img src='/simulador/img/prohibido-girar-u.jpg' />",
+    "respuestas" : [ "Prohibido girar en U", "Prohibido dar marcha atrás", "Prohibido doblar", "Calzada de un único sentido" ]
+  }, {
+    "correctas" : 2,
+    "pregunta" : "¿Qué significa esta señal? <img src='/simulador/img/calzada-resbaladiza.jpg' />",
+    "respuestas" : [ "Proyección de gravilla", "Peligro de aceite", "Calzada resbaladiza", "Curva peligrosa" ]
+  }, {
+    "correctas" : 0,
+    "pregunta" : "¿Podemos adelantar en un repecho?",
+    "respuestas" : [ "No", "Solo con extremo cuidado", "Solo en calles de un único sentido", "Se puede siempre" ]
+  }, {
+    "correctas" : 1,
+    "pregunta" : "¿Qué no podemos hacer en presencia de esta señal? <img src='/simulador/img/prohibido-estacionar-detenerse.jpg' />",
+    "respuestas" : [ "Estacionar", "Ni estacionar ni detenernos", "Detenernos", "Estacionar sin permiso especial" ]
+  }, {
+    "correctas" : 0,
+    "pregunta" : "Derecho preferente de paso es:",
+    "respuestas" : [ "La facultad de un peatón o conductor de un vehículo para proseguir la marcha", "La facultad del conductor de un vehículo para cambiar de dirección careciendo de preferencia", "La facultad del conductor de un vehículo para no detener la marcha al ingresar a una calle de preferencia", "Ninguna de las anteriores es correcta" ]
+  }, {
+    "correctas" : 3,
+    "pregunta" : "En carretera se debe aminorar la marcha en:",
+    "respuestas" : [ "Zonas urbanas y caseríos.", "Curvas y cruces.", "Pasos a nivel y puentes.", "Todas las anteriores son correctas." ]
+  }, {
+    "correctas" : 2,
+    "pregunta" : "El tiempo de reacción del conductor se ve afectado por:",
+    "respuestas" : [ "El estado de la ruta.", "La velocidad a la cual conduce.", "El cansancio.", "Los defectos mecánicos del vehículo." ]
+  }, {
+    "correctas" : 0,
+    "pregunta" : "Los funcionarios del cuerpo de inspectores de tránsito, están facultados para modificar las preferencias establecidas cuando las circunstancias lo requieran:",
+    "respuestas" : [ "Verdadero", "Falso" ]
+  }, {
+    "correctas" : 3,
+    "pregunta" : "Al conducir en carretera su fatiga aumenta si:",
+    "respuestas" : [ "Se escucha música.", "Se viaja con ventanilla cerrada.", "El paisaje es monótono.", "Solo la 2 y 3 son correctas" ]
+  }, {
+    "correctas" : 3,
+    "pregunta" : "¿Qué luces debe llevar encendidas un vehículo durante la noche en las áreas urbanas?",
+    "respuestas" : [ "Luces altas o bajas de acuerdo a la situación del tránsito.", "Cualquiera indistintamente.", "Luces de posición.", "Solo la 1 y 3 son correctas" ]
+  }, {
+    "correctas" : 0,
+    "pregunta" : "Si su vehículo comienza a patinar al momento de frenar:",
+    "respuestas" : [ "Procure detenerlo bombeando intermitentemente el freno.", "Frene enérgicamente.", "Acelere.", "Todas las anteriores son incorrectas." ]
+  }, {
+    "correctas" : 2,
+    "pregunta" : "Cuando se trata de evitar un choque de frente en carretera Ud deberá:",
+    "respuestas" : [ "Frenar.", "Rebajar los cambios.", "Desviarse hacia la banquina.", "Encender las luces largas." ]
+  }, {
+    "correctas" : 0,
+    "pregunta" : "Siempre se debe prestar atención a la luz del semáforo que está frente a uno:",
+    "respuestas" : [ "Verdadero.", "Falso." ]
+  }, {
+    "correctas" : 3,
+    "pregunta" : "¿Para quién es obligatorio el uso del cinturón de seguridad?",
+    "respuestas" : [ "Sólo para los ocupantes de los asientos traseros de los vehículos automotores.", "Sólo para los ocupantes de los asientos delanteros de los vehículos automotores.", "Ninguna de las anteriores.", "Para todos los ocupantes del vehículo." ]
+  }, {
+    "correctas" : 1,
+    "pregunta" : "Ud. puede circular sin espejo retrovisor cuando circula a baja velocidad",
+    "respuestas" : [ "Verdadero", "Falso" ]
+  }, {
+    "correctas" : 1,
+    "pregunta" : "La velocidad adecuada de circulación de un vehículo en caso de aglomeración de personas es:",
+    "respuestas" : [ "15 km/h", "A paso de peatón.", "25 km/h", "Ninguna de las anteriores es correcta." ]
+  }, {
+    "correctas" : 0,
+    "pregunta" : "Durante la noche en áreas urbanas los vehículos deben circular con todas las luces reglamentarias encendidas.",
+    "respuestas" : [ "Verdadero.", "Falso." ]
+  }, {
+    "correctas" : 2,
+    "pregunta" : "¿Cómo se comporta Ud. frente a un agente de tránsito de perfil hacia su carril?",
+    "respuestas" : [ "Detiene totalmente la marcha", "Espera a que se vacíe el cruce", "Sigue la marcha." ]
+  }, {
+    "correctas" : 2,
+    "pregunta" : "Al encontrar a un accidentado Ud. debe:",
+    "respuestas" : [ "Quitarle el casco en caso de tenerlo puesto.", "Proporcionarle comida o alimento si lo solicita.", "Promover la calma y llamar a la emergencia.", "Todas las anteriores son correctas." ]
+  }, {
+    "correctas" : 2,
+    "pregunta" : "En condiciones de tránsito comunes, un vehículo podrá ser conducido marcha atrás sólo:",
+    "respuestas" : [ "50 mts.", "35 mts.", "en caso de necesidad para estacionar", "ninguna de las anteriores es correcta." ]
+  }, {
+    "correctas" : 0,
+    "pregunta" : "Los inspectores de las intendencias y/o policía de tránsito están facultados al retiro de la documentación del conductor y/o vehículo.",
+    "respuestas" : [ "verdadero", "falso" ]
+  }, {
+    "correctas" : 0,
+    "pregunta" : "Antes de empezar a pasar el vehículo que va adelante, Ud. deberá:",
+    "respuestas" : [ "mirar espejo retrovisor y prender el señalero", "tocar la bocina", "hacer cambio de luces", "ninguna de las anteriores es correcta", "todas las anteriores son correctas" ]
+  }, {
+    "correctas" : 0,
+    "pregunta" : "Si Ud. esta cruzando una calle, la luz amarilla de un semáforo indica:",
+    "respuestas" : [ "atención, obligación a despejar el cruce", "derecho de paso", "detenerse", "despacio, escuela" ]
+  }, {
+    "correctas" : 0,
+    "pregunta" : "Solo se puede adelantar a otro vehículo por la derecha si éste esta girando o se dispone a girar a la izquierda:",
+    "respuestas" : [ "verdadero", "falso" ]
+  }, {
+    "correctas" : 0,
+    "pregunta" : "Los funcionarios del cuerpo de inspectores de tránsito están facultados para modificar las preferencias establecidas cuando las circunstancias lo requieran:",
+    "respuestas" : [ "verdadero", "falso" ]
+  }, {
+    "correctas" : 1,
+    "pregunta" : "Cuando los neumáticos tienen poca presión de aire, se ahorra combustible:",
+    "respuestas" : [ "verdadero", "falso" ]
+  }, {
+    "correctas" : 0,
+    "pregunta" : "El uso del cinturón de seguridad es tan importante en la ciudad como en la carretera:",
+    "respuestas" : [ "verdadero", "falso" ]
+  }, {
+    "correctas" : 3,
+    "pregunta" : "Es necesario duplicar la distancia entre su vehículo y el que lo antecede en:",
+    "respuestas" : [ "amanecer", "atardecer", "pavimento resbaloso", "todas las anteriores son correctas" ]
+  }, {
+    "correctas" : 0,
+    "pregunta" : "En los días de lluvia se debe disminuir la velocidad aunque las condiciones del vehículo sean óptimas",
+    "respuestas" : [ "verdadero", "falso" ]
+  }, {
+    "correctas" : 2,
+    "pregunta" : "Un disgusto (alteraciones, discusiones, depresión) afecta:",
+    "respuestas" : [ "la visión lateral", "la audición", "el tiempo de reacción", "ninguna de las anteriores es correcta" ]
+  }, {
+    "correctas" : 1,
+    "pregunta" : "En una bajada pronunciada para mayor seguridad, debe poner el vehículo en punto muerto:",
+    "respuestas" : [ "verdadero", "falso" ]
+  }, {
+    "correctas" : 0,
+    "pregunta" : "La calle es el tramo de la vía pública destinado preferentemente a:",
+    "respuestas" : [ "la circulación de cualquier tipo de vehículos automotores", "solamente la circulación de peatones", "solamente la circulación de vehículos medianos" ]
+  }, {
+    "correctas" : 1,
+    "pregunta" : "Con el coche cargado las distancias para detenerse serán menores",
+    "respuestas" : [ "verdadero", "falso" ]
+  }, {
+    "correctas" : 1,
+    "pregunta" : "Cuando se maneja por períodos de mas de cuatro horas se deberá descansar por lo menos:",
+    "respuestas" : [ "10 minutos", "20 minutos", "50 minutos", "60 minutos" ]
+  }, {
+    "correctas" : 1,
+    "pregunta" : "La distancia prudencial entre dos vehículos que circulan en la misma dirección, es aquella que permite al conductor ver las ruedas traseras del vehículo que va adelante:",
+    "respuestas" : [ "verdadero", "falso" ]
+  }, {
+    "correctas" : 0,
+    "pregunta" : "Los objetos duros y con puntas depositados en los estantes delanteros y traseros, se pueden convertir en proyectiles peligrosos en una frenada brusca",
+    "respuestas" : [ "verdadero", "falso" ]
+  }, {
+    "correctas" : 0,
+    "pregunta" : "Aun tomando descansos, no se deberá conducir por más de 9 horas contínuas",
+    "respuestas" : [ "verdadero", "falso" ]
+  }, {
+    "correctas" : 0,
+    "pregunta" : "A partir de los 35 y 40 años de edad se va perdiendo la rapidez para reaccionar",
+    "respuestas" : [ "verdadero", "falso" ]
+  }, {
+    "correctas" : 0,
+    "pregunta" : "¿Qué debe hacer un conductor al iniciar un giro a la izquierda desde una calle de doble mano?",
+    "respuestas" : [ "aproximarse a la linea central o eje de la calle, señalizando con suficiente anticipación.", "ubicarse sobre el lado izquierdo del eje de la calzada.", "acercarse lo más a la derecha posible.", "ninguna de las anteriores es correcta." ]
+  }, {
+    "correctas" : 0,
+    "pregunta" : "Los peatones que circulan por la vereda tienen preferencia de paso ante un vehículo que la atraviesa para entrar o salir de un garaje.",
+    "respuestas" : [ "verdadero", "falso" ]
+  }, {
+    "correctas" : 2,
+    "pregunta" : "Los vehículos que tengan sus neumáticos con bandas de rodamiento gastadas",
+    "respuestas" : [ "podrán circular solo de noche.", "podrán circular solo de día.", "no podrán circular." ]
+  }, {
+    "correctas" : 3,
+    "pregunta" : "Si es encandilado por otro vehículo Ud. deberá",
+    "respuestas" : [ "hacer cambio de luces.", "colocar las luces cortas.", "tirarse a la banquina si el coche es inevitable.", "solo la 1 y 3 son correctas." ]
+  }, {
+    "correctas" : 1,
+    "pregunta" : "El conductor de un vehículo puede sobrepasar a otro por la derecha cuando:",
+    "respuestas" : [ "el vehículo de adelante va a doblar a la derecha.", "el vehículo de adelante va a doblar a la izquierda.", "nunca.", "el vehículo de adelante da paso a otros." ]
+  }, {
+    "correctas" : 0,
+    "pregunta" : "En caso de quedarse sin frenos, cuando el pedal ofrece algo de resistencia lo primero a intentar es bombearlo varias veces",
+    "respuestas" : [ "verdadero", "falso" ]
+  }, {
+    "correctas" : 0,
+    "pregunta" : "Las bebidas alcohólicas tomadas junto con algunos antialérgicos disminuyen la capacidad de conducir",
+    "respuestas" : [ "verdadero", "falso" ]
+  }, {
+    "correctas" : 3,
+    "pregunta" : "Con mucha carga en la valija del automovil se afectará",
+    "respuestas" : [ "el consumo de combustible.", "el mecanismo de la dirección.", "la altura de los faros delanteros.", "solo la 2 y 3 son correctas" ]
+  }, {
+    "correctas" : 1,
+    "pregunta" : "Cuando llueve:",
+    "respuestas" : [ "debe circular en el centro de la calzada.", "debe circular a la derecha del centro de la calzada.", "ninguna de las anteriores es correcta." ]
+  }, {
+    "correctas" : 0,
+    "pregunta" : "Si observa que encienden las luces blancas del vehículo, ello significa:",
+    "respuestas" : [ "que da marcha atrás.", "que se dispone a pasar a otro.", "que va a frenar.", "que va a girar a la derecha." ]
+  }, {
+    "correctas" : 1,
+    "pregunta" : "Hasta los 70 años de edad no se altera la rapidez para reaccionar",
+    "respuestas" : [ "verdadero", "falso" ]
+  }, {
+    "correctas" : 1,
+    "pregunta" : "El ruido que produce el silenciador en mal estado no aumenta la fatiga del conductor",
+    "respuestas" : [ "verdadero", "falso" ]
+  }, {
+    "correctas" : 0,
+    "pregunta" : "Las intendencias están facultada para retirar de la vía pública los vehículos mal estacionados o estacionados en lugar prohibido",
+    "respuestas" : [ "verdadero", "falso" ]
+  }, {
+    "correctas" : 1,
+    "pregunta" : "Por norma general Ud. debe circular por la izquierda de la calzada",
+    "respuestas" : [ "verdadero", "falso" ]
+  }, {
+    "correctas" : 0,
+    "pregunta" : "Las rutas nacionales son la única via de circulación de preferencia aun cuando las transfersales no tengan el signo de PARE",
+    "respuestas" : [ "verdadero", "falso" ]
+  }, {
+    "correctas" : 1,
+    "pregunta" : "Ante destellantes amarillos instalados en las cercanías de las escuelas: ¿a qué velocidad debe circular?",
+    "respuestas" : [ "15 km/h", "A paso de peatón.", "25 km/h", "Ninguna de las anteriores es correcta." ]
+  }, {
+    "correctas" : 1,
+    "pregunta" : "Nunca debe adelantarse a un vehículo que esta doblando a la derecha",
+    "respuestas" : [ "verdadero", "falso" ]
+  }, {
+    "correctas" : 0,
+    "pregunta" : "Adelantamiento correcto es una maniobra efectuada:",
+    "respuestas" : [ "por el costado izquierdo del vehículo que se va a adelantar.", "por el costado derecho del vehículo que se va a adelantar.", "por la banquina si la hubiere.", "nunca se debe adelantar." ]
+  }, {
+    "correctas" : 0,
+    "pregunta" : "Para conducir adecuadamente es importante observar la luz del semáforo que está frente a Ud.",
+    "respuestas" : [ "verdadero", "falso" ]
+  }, {
+    "correctas" : 1,
+    "pregunta" : "¿Qué tramo de la calle se debe utilizar exclusivamente para manejar un vehículo?",
+    "respuestas" : [ "la banquina.", "la calzada.", "la acera.", "ninguna de las anteriores son correctas." ]
+  }, {
+    "correctas" : 3,
+    "pregunta" : "Tienen preferencia de paso cuando hagan las señales correspondientes:",
+    "respuestas" : [ "las ambulancias.", "patrulleros y bomberos", "los vehículos del departamento de tránsito.", "todas las anteriores son correctas" ]
+  }, {
+    "correctas" : 3,
+    "pregunta" : "Al encontrarse la calle mojada por la lluvia ¿qué debe hacer Ud.?",
+    "respuestas" : [ "disminuir la velocidad.", "aumentar la velocidad.", "estar atento a frenar.", "solo la 1 y 3 son correctas" ]
+  }, {
+    "correctas" : 1,
+    "pregunta" : "La velocidad máxima a la que debe conducir en la zona urbana, salvo expresas excepciones es:",
+    "respuestas" : [ "20 km/h", "45 km/h", "60 km/h", "ninguna de las anteriores es correcta." ]
+  }, {
+    "correctas" : 2,
+    "pregunta" : "Para señalizar con el brazo la disminución de la velocidad o detención del vehículo, se deberá colocar:",
+    "respuestas" : [ "extendido horizontalmente.", "en ángulo recto hacia abajo.", "extendido hacia abajo.", "ninguna de las opciones es correcta." ]
+  }, {
+    "correctas" : 0,
+    "pregunta" : "Las luces largas deberán sustituirse por las de alcance medio cuando haya riesgo de encandilarse",
+    "respuestas" : [ "verdadero", "falso" ]
+  }, {
+    "correctas" : 1,
+    "pregunta" : "Cuando un automóvil al salir del garaje cruza la vereda, obtiene la preferencia sobre los peatones que circulan en ella",
+    "respuestas" : [ "verdadero", "falso" ]
+  }, {
+    "correctas" : 3,
+    "pregunta" : "La visión se reduce:",
+    "respuestas" : [ "en horas de la noche.", "con el encandilamiento.", "cuando mayor velocidad se desarrolla.", "todas son correctas." ]
+  }, {
+    "correctas" : 1,
+    "pregunta" : "El color de las luces que proyectan hacia adelante los vehículos pueden ser:",
+    "respuestas" : [ "rojas o blancas.", "amarillas o blancas.", "verdes o blancas.", "ninguna de las anteriores es correcta." ]
+  }, {
+    "correctas" : 1,
+    "pregunta" : "Durante la carga de combustible se puede dejar el motor encendido",
+    "respuestas" : [ "verdadero", "falso" ]
+  }, {
+    "correctas" : 2,
+    "pregunta" : "En las calles de doble sentido los vehículos que circulen en sentido opuesto al cruzarse:",
+    "respuestas" : [ "deberán encender las luces bajas.", "deberán circular por el eje de la calzada demarcada o imaginaria.", "no pasarán el eje de la calzada demarcada o imaginaria.", "hacer un destello de luces." ]
+  }, {
+    "correctas" : 0,
+    "pregunta" : "Por norma general Ud. debe circular por la mitad derecha de la calzada",
+    "respuestas" : [ "verdadero", "falso" ]
+  }, {
+    "correctas" : 2,
+    "pregunta" : "Un conductor al enfrentar una señal de 'Ceda el Paso' deberá:",
+    "respuestas" : [ "detenerse siempre.", "seguir la marcha a la misma velocidad.", "reducir la velocidad y detenerse siempre si es necesario.", "acelerar." ]
+  }, {
+    "correctas" : 0,
+    "pregunta" : "Nunca debe adelantarse a un vehículo que está dando paso a peatones",
+    "respuestas" : [ "verdadero", "falso" ]
+  }, {
+    "correctas" : 0,
+    "pregunta" : "La vereda es el tramo de vía pública preferentemente destinado a:",
+    "respuestas" : [ "el uso de peatones.", "el uso de vehículos automotores.", "otros usos.", "ninguna de las anteriores es correcta." ]
+  }, {
+    "correctas" : 1,
+    "pregunta" : "En el cruce cuyos semáforos se encuentran apagados o descompuestos la preferencia será de:",
+    "respuestas" : [ "los que circulan por una avenida.", "los vehículos que aparecen por la derecha.", "los que llegan primero al cruce.", "los vehículos que aparecen por la izquierda." ]
+  }, {
+    "correctas" : 0,
+    "pregunta" : "Debe prestar atención de no encandilar a los que vienen en sentido contrario usando las luces cortas",
+    "respuestas" : [ "verdadero", "falso" ]
+  }, {
+    "correctas" : 1,
+    "pregunta" : "Usted puede circular sin espejo retrovisor cuando el vehículo sea de transporte de carga",
+    "respuestas" : [ "verdadero", "falso" ]
+  }, {
+    "correctas" : 0,
+    "pregunta" : "En pavimento mojado nunca se debe circular con el vehículo en punto muerto",
+    "respuestas" : [ "verdadero", "falso" ]
+  }, {
+    "correctas" : 1,
+    "pregunta" : "La velocidad adecuada de circulación frente a escuelas en horarios de entrara o salida es",
+    "respuestas" : [ "15 km/h", "A paso de peatón.", "25 km/h", "Ninguna de las anteriores es correcta." ]
+  }, {
+    "correctas" : 2,
+    "pregunta" : "Si Ud. debe estacionar en bajada",
+    "respuestas" : [ "deja derecho el auto y aplica freno de mano.", "deja derecho el auto y le pone cambio.", "aplica el freno de mano y gira las ruedas hacia el cordón de la vereda.", "aplica el freno de mano y gira las ruedas contrario al cordón de la vereda." ]
+  }, {
+    "correctas" : 0,
+    "pregunta" : "Ante la siguiente señal, usted puede circular a: <img src='/simulador/img/velodidad-maxima.jpg' />",
+    "respuestas" : [ "60 km/h como máximo.", "60 km/h o más.", "45 km/h como máximo.", "ninguna de las anteriores es correcta." ]
+  }, {
+    "correctas" : 2,
+    "pregunta" : "Un vehículo que circula a 60 km/h necesita para detenerse",
+    "respuestas" : [ "10 metros.", "25 metros.", "media cuadra.", "2 cuadras." ]
+  }, {
+    "correctas" : 0,
+    "pregunta" : "Cuando un vehículo sufre un desperfecto en la carretera se debe colocar la baliza o triángulo por lo menos a 50 metros",
+    "respuestas" : [ "verdadero", "falso" ]
+  }, {
+    "correctas" : 3,
+    "pregunta" : "Esta terminantemente prohibido estacionar",
+    "respuestas" : [ "en la mitad de la cuadra.", "en la acera derecha de las calles de un solo sentido.", "en la puerta de una escuela.", "a menos de 10 metros de una señal de PARE o de CEDA EL PASO" ]
+  }, {
+    "correctas" : 0,
+    "pregunta" : "En caso de incendio o inmersión el cinturón de seguridad le puede salvar la vida",
+    "respuestas" : [ "verdadero", "falso" ]
+  }, {
+    "correctas" : 0,
+    "pregunta" : "Ante irregularidades en la documentación o estado del vehículo, este puede ser detenido por un funcionario de tránsito, igual que la documentación (del conductor y del vehículo) previa entrega del recibo pertinente",
+    "respuestas" : [ "verdadero", "falso" ]
+  }, {
+    "correctas" : 2,
+    "pregunta" : "Si mientras va circulando revienta un neumático ¿Qué hace?",
+    "respuestas" : [ "frena bruscamente.", "quita el pie del acelerador y gira por el lado que reventó el neumático.", "frena suavemente, arrimando el auto derecho hasta detenerse.", "apaga el motor." ]
+  }, {
+    "correctas" : 1,
+    "pregunta" : "El peatón, ¿tiene preferencia de cruce en cualquier lugar de la calzada?",
+    "respuestas" : [ "verdadero", "falso" ]
+  }, {
+    "correctas" : 1,
+    "pregunta" : "Cuando va detras de un vehículo durante la noche deben usarse las luces cortas",
+    "respuestas" : [ "en ningún momento.", "cuando la distancia haga innecesaria las luces largas.", "cuando la visibilidad sea muy buena.", "ninguna de las anteriores es correcta." ]
+  }, {
+    "correctas" : 0,
+    "pregunta" : "La preferencia de paso del vehículo de la derecha no regirá",
+    "respuestas" : [ "en los cruces regulados por semáforos o agentes de tránsito.", "en las vías de doble tránsito.", "En los cruces no regulados." ]
+  }, {
+    "correctas" : 2,
+    "pregunta" : "¿Cuál es la edad mínima para poder viajar en el asiento delantero del vehículo?",
+    "respuestas" : [ "1 año", "6 años", "12 años", "ninguna es correcta." ]
+  },
+  {
+    "correctas" : 0,
+    "pregunta" : "La preferencia de paso del vehículo de la derecha no regirá",
+    "respuestas" : [ "en los cruces regulados por semáforos o agentes de tránsito.", "en las vías de doble tránsito.", "en los cruces no regulados." ]
+  },
+  {
+    "correctas" : 2,
+    "pregunta" : "Un conductor al enfrentar una señal de PARE debe:",
+    "respuestas" : [ "seguir su marcha a la misma velocidad.", "reducir un poco la velocidad y continuar.", "detener totalmente la marcha.", "reducir la velocidad y detenerse si fuera necesario." ]
+  },
+  {
+    "correctas" : 0,
+    "pregunta" : "Un cruce regulado:",
+    "respuestas" : [ "es aquel en que existen semáforos funcionando regularmente, un inspector o agente de tránsito.", "es aquel en el que existe cualquier tipo de señal vertical u horizontal.", "ninguna es correcta."]
+  },
+  {
+    "correctas" : 0,
+    "pregunta" : "Se puede adelantar a un vehículo que está doblando a la derecha.",
+    "respuestas" : [ "verdadero", "falso" ]
+  },
+  {
+    "correctas" : 1,
+    "pregunta" : "Por norma general usted deberá circular por el eje de la calzada, salvo que transiten otros vehículos.",
+    "respuestas" : [ "verdadero", "falso" ]
+  },
+  {
+    "correctas" : 3,
+    "pregunta" : "Un vehículo motorizado que está correctamente estacionado es aquel que está con:",
+    "respuestas" : [ "el motor apagado.", "el freno de mano puesto.", "las ruedas en ángulo con el cordón.", "las respuestas a y b son correctas." ]
+  },
+  {
+    "correctas" : 6,
+    "pregunta" : "Está terminantemente prohibido estacionar:",
+    "respuestas" : [ "en la mitad de la cuadra.", "en la acera derecha de las calles de doble sentido.", "en la puerta de una escuela.", "a menos de 10 metros de una señal de 'PARE' o 'CEDA EL PASO'.", "en los canteros centrales.", "en ángulo con el cordón.", "las respuestas d, e y f son correctas." ]
+  },
+  {
+    "correctas" : 2,
+    "pregunta" : "¿Cuál es la distancia mínima de seguridad que Ud. debe mantener con respecto al vehículo que circula delante?",
+    "respuestas" : [ "el doble en metros de la velocidad en km/h.", " un cuarto en metros de la velocidad en km/h", "la mitad en metros de la velocidad en km/h.", "ninguna es correcta." ]
+  },
+  {
+    "correctas" : 4,
+    "pregunta" : "Para enfrentar a futuras emergencias un conductor prudente debe tener en su vehículo:",
+    "respuestas" : [ "un extintor.", "dos balizas o triángulos.", "un manual de funcionamiento del motor.", "juegos para entretener a los niños si viajan con ellos.", "las respuestas a, b y d son correctas."]
+  },
+  {
+    "correctas" : 3,
+    "pregunta" : "Los vehículos que tienen sus neumáticos con bandas de roamiento gastadas (menos de 2mm de profundidad):",
+    "respuestas" : [ "deben circular solo de noche.", "deben circular solo de día.", "pueden circular en cualquier horario.", "no pueden circular.", "deben circular a velocidades mínimas." ]
+  },
+  {
+    "correctas" : 0,
+    "pregunta" : "¿Cómo se comporta usted ante la siguiente señal? <img src='/simulador/img/prohibido-girar-derecha.jpg' />",
+    "respuestas" : [ "no puede girar a la derecha.", "no le da importancia pues sabe que nadie puede aparecer por la izquierda.", "Ud. solo puede girar a la derecha" ]
+  },
+  {
+    "correctas" : 1,
+    "pregunta" : "¿Qué le indica la siguiente señal? <img src='/simulador/img/conserve-su-derecha.jpg' />",
+    "respuestas" : [ "que solo puede circular por la izquierda.", "que solo puede circular por la derecha.", "que debe circular temporalmente por la banquina." ]
+  },
+  {
+    "correctas" : 3,
+    "pregunta" : "¿Qué le indica la siguiente señal? <img src='/simulador/img/bifurcacion-en-t.jpg' />",
+    "respuestas" : [ "la proximidad de una intersección.", "proximamente caserío.", "calle cerrada.", "ninguna de las anteriores." ]
+  },
+  {
+    "correctas" : 0,
+    "pregunta" : "Al protagonizar un choque simple (sin heridos, solo daños materiales) se deberá despejar inmediatamente la calle.",
+    "respuestas" : [ "verdadero.", "falso" ]
+  },
+  {
+    "correctas" : 1,
+    "pregunta" : "Circulando delante de un vehículo de emergencia Ud. deberá aumentar la distancia que lo separa del mismo.",
+    "respuestas" : [ "verdadero.", "falso." ]
+  },
+  {
+    "correctas" : 3,
+    "pregunta" : "A 60 km/H la visión lateral: ",
+    "respuestas" : [ "disminuye un 25%", "disminuye un 50%", "no se altera.", "se reduce a visión de tubo." ]
+  },
+  {
+    "correctas" : 0,
+    "pregunta" : "Ante estas circunstancias: lluvia, atardecer, niebla, humo. ¿Con qué luces deberá circular?",
+    "respuestas" : [ "luces cortas.", "luces largas.", "luces de posición.", "luces de freno." ]
+  },
+  {
+    "correctas" : 1,
+    "pregunta" : "Ud. puede usar la bocina de su vehículo para:",
+    "respuestas" : [ "apurar al que va adelante.", "prevenir un accidente en caso de extrema necesidad.", "siempre, salvo cuando pasa frente un hospital", "para avisar que va a frenar." ]
+  },
+  {
+    "correctas" : 0,
+    "pregunta" : "¿Qué significa la siguiente señal? <img src='/simulador/img/camino-sinuoso.jpg' />",
+    "respuestas" : [ "camino sinuoso.", "se aproximan desniveles.", "curva y contracurva.", "ninguna de las anteriores." ]
+  },
+  {
+    "correctas" : 2,
+    "pregunta" : "¿Qué significa la siguiente señal? <img src='/simulador/img/calzada-estrecha2.jpg' />",
+    "respuestas" : [ "supresión de carril izquierdo.", "supresión de carril derecho.", "calzada estrecha.", "puente estrecho." ]
+  },
+  {
+    "correctas" : 0,
+    "pregunta" : "¿Qué significa la siguiente señal? <img src='/simulador/img/incorporacion-de-transito.jpg' />",
+    "respuestas" : [ "incorporación de tránsito.", "bifurcación próxima.", "intersección.", "ninguna de las anteriores." ]
+  },
+  {
+    "correctas" : 2,
+    "pregunta" : "¿Qué significa la siguiente señal? <img src='/simulador/img/via-lateral.jpg' />",
+    "respuestas" : [ "bifurcación en Y.", "desvío a la derecha", "via lateral.", "bifurcación en T." ]
+  },
+  {
+    "correctas" : 2,
+    "pregunta" : "¿Qué significa la siguiente señal? <img src='/simulador/img/contramano.jpg' />",
+    "respuestas" : [ "PARE.", "carril anulado.", "a contramano.", "ninguna de las anteriores." ]
+  },
+  {
+    "correctas" : 1,
+    "pregunta" : "¿Qué avisa la siguiente señal? <img src='/simulador/img/obras.jpg' />",
+    "respuestas" : [ "la presencia de escolares.", "la ejecución de una obra en las inmediaciones.", "la proximidad de un hospital.", "ninguna de las anteriores." ]
+  },
+  {
+    "correctas" : 0,
+    "pregunta" : "¿Qué significa la siguiente señal? <img src='/simulador/img/zona-de-escolares.jpg' />",
+    "respuestas" : [ "zona de escolares.", "paso de peatones.", "peatones con preferencia." ]
+  }
+  
+   ]
 }
