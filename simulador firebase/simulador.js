@@ -21,6 +21,7 @@ $(document).ready(function() {
         name: data.val()[Object.keys(data.val())[0]].name, 
         ci: data.val()[Object.keys(data.val())[0]].ci,
         strikes: data.val()[Object.keys(data.val())[0]].strikes,
+        attempts: data.val()[Object.keys(data.val())[0]].attempts
       }
       
       console.log(Test.user)
@@ -38,7 +39,11 @@ $(document).ready(function() {
     console.log(err);
   }  
   function gotData(data) {
-    Test.preguntas = data.val();
+    const sortedQuestions = data.val().preguntas.sort( function() { return 0.5 - Math.random() } ).slice(0,30);
+
+    Test.preguntas = sortedQuestions;
+    
+    console.log(Test.preguntas)
     
     $.map( Test.preguntas, function( value, index ) {
       Test.correctas[index] = value.correctas;
@@ -80,13 +85,23 @@ $(document).ready(function() {
       var resultado =  (Test.aciertos >= 24 ) ? "<span class='green'> APROBADO</span>" : "<span class='crimson'> REPROBADO</span>";
       
       if (Test.aciertos < 24) {
+        console.log(Test.user)
         db.ref('usuarios/' + Test.user[Object.keys(Test.user)[0]]).set({
           id: Test.user.id,
           ci: Test.user.ci,
           name: Test.user.name,
+          attempts: Test.user.attempts +1,
          strikes: Test.user.strikes + 1
   });
-      }
+      } else {
+        console.log(Test.user)
+        db.ref('usuarios/' + Test.user[Object.keys(Test.user)[0]]).set({
+          id: Test.user.id,
+          ci: Test.user.ci,
+          name: Test.user.name,
+          attempts: Test.user.attempts +1,
+          strikes: Test.user.strikes
+      }) }
       testContainer.children().css( "display", "none" );
       
       scoreCard.append("<h2 class='fadeInUp animated'>"+ Test.user.name.split(" ")[0] + " tu examen fue:"+resultado + "" +"</h2>" +"Correctas: "+ Test.aciertos + "/30")

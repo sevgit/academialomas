@@ -61,8 +61,11 @@ $(document).ready(function() {
             data.val()[index].ci+ 
             "</span>"+ 
             "<span class='detalle-usuario'><span class='bold'>Intentos fallidos: </span>"+
-            data.val()[index].strikes +
-            "</span></li>");
+            data.val()[index].strikes + "</span>" +
+            "<span class='detalle-usuario'><span class='bold'>Intentos totales: </span>"+
+            data.val()[index].attempts +
+            "</span></li>"
+            );
 
        
       });
@@ -82,6 +85,7 @@ $(document).ready(function() {
         var userData = {
         name: userName,
         ci: userCi,
+        attempts: 0,
         strikes: 0
     }
     db.ref('usuarios').push(userData);
